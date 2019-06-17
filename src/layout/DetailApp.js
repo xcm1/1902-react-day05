@@ -1,13 +1,14 @@
 import React from 'react';
+import { Switch, Route } from "react-router-dom";
+import Detail from '@/views/Detail';
+import Order from '@/views/Order';
+
 function DetailApp () {
   return (
-    <div className = "container">
-      <div className = "box">
-        <header className = "header">详情头部</header>
-        <div className = "content">详情内容</div>
-      </div>
-      <footer className = "footer">详情底部</footer>
-    </div>
+    <Switch>
+      <Route path = '/detail/order' component = { Order } />
+      <Route path = '/detail/:id' component = { Detail } />
+    </Switch>
   )
 }
 

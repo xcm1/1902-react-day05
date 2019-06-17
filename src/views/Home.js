@@ -21,7 +21,7 @@ class Com extends React.Component {
       <div className = "box">
         <header className = "header">首页头部</header>
         <div className = "content">
-          <ProList prolist = { this.state.prolist }/>
+          <ProList prolist = { this.state.prolist } { ...this.props }/>
           首页内容</div>
       </div>
     )
