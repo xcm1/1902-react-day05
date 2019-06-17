@@ -19,19 +19,19 @@ function App() {
       <footer className = "footer">
         <ul>
         <NavLink to = "/home">
-            <span></span>
+            <span className="iconfont icon-index-copy"></span>
             <p>首页</p>
           </NavLink>
           <NavLink to = "/kind">
-            <span></span>
+            <span className="iconfont icon-classify-red"></span>
             <p>分类</p>
           </NavLink>
           <NavLink to = "/cart">
-            <span></span>
+            <span className="iconfont icon-gouwuche"></span>
             <p>购物车</p>
           </NavLink>
           <NavLink to = "/user">
-            <span></span>
+            <span className="iconfont icon-mine"></span>
             <p>我的</p>
           </NavLink>
           
